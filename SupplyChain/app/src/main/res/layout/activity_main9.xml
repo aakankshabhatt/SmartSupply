@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9"
+    android:orientation="vertical"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check-in Time:"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:layout_marginRight="115dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <EditText
+            android:id="@+id/time_txt"
+            android:layout_width="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:background="#E5E5E5"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:hint="SELECT TIME"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/date_txt"
+            android:layout_width="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:background="#E5E5E5"
+            android:hint="SELECT DATE"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(In Tons)"
+            android:layout_marginLeft="140dp"
+            android:textSize="20dp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/quant_gtxt"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittextstyle"
+        android:singleLine="true" />
+
+
+
+    <Button
+        android:id="@+id/submitgodown"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="7dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center_horizontal" />
+</LinearLayout>

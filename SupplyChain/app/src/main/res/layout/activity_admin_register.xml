@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminRegister"
+   >
+
+    <TextView
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Details of the Employee and
+                    Workers."
+        android:textSize="25sp"
+        android:textAlignment="center">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:paddingVertical="15dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Enter Email"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="60dp"
+            android:textSize="18dp"
+            android:background="@drawable/rectangular_field"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/email"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Enter Password"
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            android:paddingLeft="60dp"
+            android:background="@drawable/rectangular_field"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/password"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/inputConfirmPassword"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Re-enter Password"
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            android:paddingLeft="60dp"
+            android:background="@drawable/rectangular_field"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/password"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/inputPhoneno"
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Phone Number"
+        android:textColor="#000000"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/rectangular_field"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Domain :"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        >
+    </TextView>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:entries="@array/domain_arrays"
+                         />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="7dp"
+        android:background="@drawable/rectangle_1"
+        android:layout_gravity="center" />
+</LinearLayout>
+

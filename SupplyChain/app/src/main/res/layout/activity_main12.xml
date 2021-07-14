@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity12">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Raw Material :"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rm_rtxt"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:background="@drawable/edittextstyle"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:text="Price Range"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:id="@+id/from_rtxt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:padding="2dp"
+            android:textSize="25dp"
+            android:gravity="left"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittextstyle"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textColor="#000000"
+            android:layout_marginLeft="220dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:id="@+id/to_rtxt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="270dp"
+            android:padding="2dp"
+            android:textSize="25dp"
+            android:gravity="left"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittextstyle"
+
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(In Tons)"
+            android:layout_marginLeft="140dp"
+            android:textSize="20dp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/quant_rtxt"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittextstyle"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/loc_rtxt"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:background="@drawable/edittextstyle"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/submitretail"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="7dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center_horizontal" />
+</LinearLayout>

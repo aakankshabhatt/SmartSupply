@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supply_buddy">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Supply_Buddy">
+        <activity android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Qr_scannergodown"
+            android:label="@string/godown"
+            android:parentActivityName=".MainActivity8" />
+        <activity
+            android:name=".Qr_scanner"
+            android:label="@string/trans"
+            android:parentActivityName=".Transport_login" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".RetailerDomain"
+            android:parentActivityName=".FTGR" />
+        <activity
+            android:name=".GodownDomain"
+            android:parentActivityName=".FTGR" />
+        <activity
+            android:name=".TransportDomain"
+            android:parentActivityName=".FTGR" />
+        <activity
+            android:name=".FarmerDomain"
+            android:parentActivityName=".FTGR" />
+        <activity
+            android:name=".AdminSuccessful"
+            android:label="@string/admin"
+            android:parentActivityName=".AdminRegister" />
+        <activity
+            android:name=".AdminRegister"
+            android:label="@string/admin"
+            android:parentActivityName=".AdmimLogin" />
+        <activity
+            android:name=".FTGR"
+            android:label="@string/monitor"
+            android:parentActivityName=".CompanySetup" />
+        <activity
+            android:name=".AdmimLogin"
+            android:label="@string/admin"
+            android:parentActivityName=".CompanySetup" />
+        <activity
+            android:name=".CompanySetup"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Transport_login"
+            android:label="@string/trans"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity13"
+            android:label="@string/retail"
+            android:parentActivityName=".MainActivity12" />
+        <activity
+            android:name=".MainActivity12"
+            android:label="@string/retail"
+            android:parentActivityName=".MainActivity11" />
+        <activity
+            android:name=".MainActivity11"
+            android:label="@string/retail"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity10"
+            android:label="@string/godown"
+            android:parentActivityName=".MainActivity9" />
+        <activity
+            android:name=".MainActivity9"
+            android:label="@string/godown"
+            android:parentActivityName=".Qr_scannergodown" />
+        <activity
+            android:name=".MainActivity8"
+            android:label="@string/godown"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity7"
+            android:label="@string/trans"
+            android:parentActivityName=".MainActivity6" />
+        <activity
+            android:name=".MainActivity6"
+            android:label="@string/trans"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity5"
+            android:label="@string/trans"
+            android:parentActivityName=".Qr_scanner" />
+        <activity
+            android:name=".MainActivity4"
+            android:label="@string/farm"
+            android:parentActivityName=".MainActivity3" />
+        <activity
+            android:name=".MainActivity3"
+            android:label="@string/farm"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/farm"
+            android:parentActivityName=".MainActivity" >
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Capture"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme" />
+    </application>
+
+</manifest>

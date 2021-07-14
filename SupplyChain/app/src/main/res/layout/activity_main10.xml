@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <ImageView
+        android:id="@+id/image_13"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/tick"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Check done!"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition updated!
+                      Payment for the transportation
+                               done."
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="320dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Qr code:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="120dp"/>
+
+    <ImageView
+        android:id="@+id/image_12"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/farmerqr"
+
+        />
+
+
+
+</RelativeLayout>

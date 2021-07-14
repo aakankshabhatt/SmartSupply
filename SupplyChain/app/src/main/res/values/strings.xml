@@ -1,0 +1,35 @@
+<resources>
+    resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smart Supply</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Enter your email  id...</string>
+    <string name="password">Enter your Password...</string>
+    <string name="login">Login</string>
+    <string name="signup">Forgot Password?</string>
+    <string name="changeLang">Change Language</string>
+    <string name="nm">Name</string>
+    <string name="raw">Raw Material</string>
+    <string name="pr">Price Range</string>
+    <string name="ton">In Tons</string>
+    <string name="fr">From</string>
+    <string name="to">To</string>
+    <string name="quantity">Quantity</string>
+    <string name="loc">Location</string>
+    <string name="retail">Retailer</string>
+    <string name="godown">Godown</string>
+    <string name="trans">Transporter</string>
+    <string name="farm">Farmer</string>
+    <string name="monitor">Monitor Activity</string>
+    <string name="admin">Admin</string>
+
+
+    <string-array name="domain_arrays">
+        <item>Farmer</item>
+        <item>Transport</item>
+        <item>Godown</item>
+        <item>Retailer</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
+

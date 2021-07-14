@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678033310950",
+    "project_id": "smart-supply-7f2ca",
+    "storage_bucket": "smart-supply-7f2ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678033310950:android:216df1f08a1b51a6f9a727",
+        "android_client_info": {
+          "package_name": "com.example.supply_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678033310950-6dl3u5ho5a78ktn28vf9g0ng2v3lhg71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDIJRta2lnD4yOKU__L7kWT7C3D42KMmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678033310950-6dl3u5ho5a78ktn28vf9g0ng2v3lhg71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

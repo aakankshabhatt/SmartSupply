@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">स्मार्ट सप्लाई</string>
+    <string name="welcome" tools:ignore="ExtraTranslation">स्वागत हे</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन</string>
+    <string name="signup">पासवर्ड भूल गए?</string>
+    <string name="changeLang">भाषा बदलो</string>
+    <string name="nm">नाम</string>
+    <string name="raw">रॉ मटेरियल</string>
+    <string name="pr">क़ीमत </string>
+    <string name="ton">टन में</string>
+    <string name="fr">से</string>
+    <string name="to">तक</string>
+    <string name="quantity">मात्रा</string>
+    <string name="loc">स्थान</string>
+    <string name="retail">Retailer</string>
+    <string name="godown">Godown</string>
+    <string name="trans">Transporter</string>
+    <string name="farm">किसान</string>
+    <string name="monitor">Monitor Activity</string>
+    <string name="admin">Admin</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

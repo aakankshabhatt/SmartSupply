@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ஸ்மார்ட் சப்ளை</string>
+    <string name="welcome">வரவேற்ப</string>
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="login">புகுபதிகை</string>
+    <string name="signup">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="changeLang">மொழியை மாற்றவும்</string>
+    <string name="nm">பெயர்</string>
+    <string name="raw">மூலப்பொருள்</string>
+    <string name="pr">விலை வரம்பு</string>
+    <string name="ton">டன்களில்</string>
+    <string name="fr">இருந்து</string>
+    <string name="to">க்கு</string>
+    <string name="quantity">அளவு</string>
+    <string name="loc">இடம்</string>
+    <string name="retail">Retailer</string>
+    <string name="godown">Godown</string>
+    <string name="trans">Transporter</string>
+    <string name="farm">விவசாயி</string>
+    <string name="monitor">Monitor Activity</string>
+    <string name="admin">Admin</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

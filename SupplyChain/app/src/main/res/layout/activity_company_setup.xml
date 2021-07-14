@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#091C43"
+    tools:context=".CompanySetup">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/monitorAct"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/monitoract"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/monactmain"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Monitor Activity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/ic_launcher_background"
+        android:textStyle="bold"
+        android:text="OR"/>
+
+        <Button
+            android:id="@+id/cussetmain"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Company Set-up"/>
+
+
+
+
+
+</LinearLayout>
